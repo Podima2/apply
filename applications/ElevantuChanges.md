@@ -7,7 +7,7 @@
 **Tagline:** World First Web3-powered Habit Gym
 
 **Brief Description:** 
-Elevantu is a behavioral coaching platform designed to help individuals achieve goals through consistent real-world challenges. Users participate in **missions**, logging their daily progress which is verified by a group of user-chosen **nominees**. Upon nominee consensus, users are rewarded with a variable amount of "Juice"—the native digital currency that powers the ecosystem. Users can also stake Juice on their mission completion, adding a tangible layer of personal accountability. This gamified system incentivizes long-term engagement; as users consistently complete habits and earn Juice, they randomly unlock new functionality and exclusive rewards, providing a tiered reward experience that feels both exciting and valuable. Elevantu fosters genuine accountability and tangible self-improvement.
+Elevantu is a behavioral coaching platform designed to help individuals achieve goals through consistent real-world challenges. Users participate in **missions**, logging their daily progress which is verified by a group of user-chosen **nominees**. Upon nominee consensus, users are rewarded with a variable amount of '**Core**'—the native digital currency that powers the ecosystem. Users can also stake 'Core' on their mission completion, adding a tangible layer of personal accountability. This gamified system incentivizes long-term engagement; as users consistently complete habits and earn Core, they randomly unlock new functionality and exclusive rewards, providing a tiered reward experience that feels both exciting and valuable. Elevantu fosters genuine accountability and tangible self-improvement.
 
 **Integration with Polkadot:**
 Elevantu is not just built on Polkadot — it is architecturally and philosophically aligned with Polkadot. Polkadot enables us to:
@@ -41,9 +41,9 @@ This project is a direct result of solving a personal problem and so I’ve desi
 - **Wallet integration:** Polkadot.js
 - **Deployment:** Custom domain already purchased
 
-**Core Components:**
+**Main Components:**
 - **Frontend Pages:** Landing Page, Mission Discovery Page, Group Page
-- **Smart Contracts:** Mission Management, Habit & Verification, Juice Token, Juice Betting, NFTs
+- **Smart Contracts:** Mission Management, Habit & Verification, Core Token, Juice Betting, NFTs
 - **Nominees & Verification:** 
 - **Juice and Variable Ratio Reward Schedule:** Saves reflections locally
   
@@ -57,29 +57,54 @@ This project is a direct result of solving a personal problem and so I’ve desi
      - **Create Mission**: Allows a new mission to be set up with its specific rules, duration, and reward structure.
      - **Join Mission**: Enables a user to officially join a mission and be added to the participant list.
      - **End Mission**: Finalizes a mission and triggers the reward distribution for all participants who successfully completed it.
-* **Habit & Verification**: This is the core engine for accountability, responsible for recording daily progress and facilitating the nominee voting process
-    - **Submit Proof: Records a user's daily check-in as an immutable, on-chain record.
-    - **Cast Vote: Allows a nominee to cast their binding "pass" or "fail" vote on a user's submission.
-    - **Check Consensus: An internal function that determines if the required number of nominee votes has been reached to verify a user's progress.
-* **Juice Token**: Returns the user’s current streak (consecutive days with completions).
-* **Juice Betting**: 
-* **NFTs**:
-* 
+       
+* **Habit & Verification**: This is the main engine for accountability, responsible for recording daily progress and facilitating the nominee voting process
+    - **Submit Proof**: Records a user's daily check-in as an immutable, on-chain record.
+    - **Cast Vote**: Allows a nominee to cast their binding "pass" or "fail" vote on a user's submission.
+    - **Check Consensus**: An internal function that determines if the required number of nominee votes has been reached to verify a user's progress.
+      
+* **Core Token**: This contract is the sole manager of the Core currency. It handles the entire token supply and is the definitive source of truth for all Core transactions.
+    - **Mint**: Creates new Core tokens, primarily for rewarding users who successfully complete a habit.
+    - **Burn**: Destroys Core tokens, typically when a user fails a mission they have placed a bet on.
+      
+* **Core Betting**: This contract is dedicated to the personal accountability layer, handling the staking and distribution of Core bets
+    - **Place Bet**: Securely locks the two parties Core in the contract as a bet on a specific users' performance on a specific mission.
+    - **Payout Winnings**: Upon successful mission completion, releases the staked Core to the winning party.
+      
+* **NFTs**: This contract handles the creation and management of all non-fungible assets, such as unique titles and collectible badges.
+    - **Mint Collectible**: Creates a new, unique token (an NFT) for a user to represent a rare reward they've unlocked.
+    - **Assign Ownership**: Records the ownership of the new NFT to the user's wallet
+
 3. **Nominees & Verification:**
-4. **Juice and Variable Ratio Reward Schedule:**
+
+Elevantu's core accountability engine is a human-driven system that leverages social pressure and verifiable on-chain consensus. The process works as follows:
+
+* **Human-Driven Accountability**: The system is powered by a small, trusted circle of nominees, selected by the user to provide personal accountability.
+
+* **User-Controlled Media**: To ensure a lightweight and user-centric system, users retain full control of their media by storing their progress proof (e.g., a photo or video) on their own personal drives or cloud storage. Only a secure link is submitted for verification
+
+* **Consensus for Completion**: Nominees review the proof and cast their votes on-chain. An immutable record of completion is created only when consensus is reached among the group.
+
+Bet Finalization: The outcome of any Core bets is directly determined by the accumulated consensus reached by the group.
+
+This reliance on human consensus and trusted social dynamics makes the system powerful for driving long-term behavioral change, creating an on-chain record that represents a genuine, peer-validated commitment.
+  
+5. **Core and Variable Ratio Reward Schedule:**
+   
+* **The Core Token**: A Quantified Commitment
+
+
+The Core token is the native digital currency of the Elevantu ecosystem. Its primary purpose is not speculative but rather to serve as a quantified representation of a user's commitment and effort over time. 
+
+* **Reward Utility**: Core is the core reward for long-term consistency. Users earn a variable amount of Core upon the successful completion and verification of their daily habits, which incentivizes repeated engagement.
+
+* **Mission Participation**: Users buy into mission participation using Core, and are rewarded back in Core proportionally to their commitment after minimum commitment quotas are achieved. If they successfully complete the mission, their Core is returned perhaps in surplus. If they fail, the user forfeits the Core, reinforcing the cost of a lack of commitment.
+
+* **Access & Unlocking**: Core acts as the key to unlocking the platform's features. As users accumulate Core, they randomly unlock new functionality, exclusive mission templates, and unique collectibles.
 
 **Mock-Up:**
 This is only a quick chatgpt mockup based on the pages required on the dapp.
 ![ChatGPT Image Apr 26, 2025, 09_11_32 PM](https://github.com/user-attachments/assets/8944ec26-4dbe-4c0a-ae30-519efd99fdc5)
-
-
-**What We Are Not Building:**
-* No backend server for journal storage (privacy-first local browser storage)
-* No mobile app (only responsive web app for now)
-* No complex multi-chain asset transfers (single-chain NFT achievements)
-* Not a social media network to get clout through social stunts
-* Users will not be encouraged to film their rejection therapy challenges, videos wont be accepted for journalling purposes
-
 
 ### 🧩 Ecosystem Fit
 
@@ -114,17 +139,20 @@ There are currently no direct competitors because the combination of elements we
 
 Agustin Schiariti
 
-#### LinkedIn Profiles (if available)
+#### Social Media Profiles
 
 - https://www.linkedin.com/AgustinSchiariti
+- https://x.com/The_Game_2030
 
 ### Team's experience
 
 * Self-Taught FPV drone pilot - Ran a luxury marketing company for two years.
 * Competed in over 25 hackathons, over 15 wins, 10k+ earned
+    * EthGlobal Cannes - 1st Place Avail
     * SmartCon Barcelona – Double 1st place Chainlink
     * EthGlobal NYC – 2nd Place Lit Protocol
     * EthGlobal Paris – 2nd Place ZetaChain Bounty
+    
   
 ## 📊 Development Status
 
