@@ -173,22 +173,22 @@ Over the past year, I’ve documented and refined these challenges through consi
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
 | 0a. | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
-| 0b. | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can log in and set up their Rejection Therapy Schedule|
+| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can log in and set up mission participation|
 | 0c. | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | 0d. | Article | We will publish an **article** that explains what was done/achieved as part of the grant.|
-| 1. | Frontend Structure | Home, Warm-up, Journal, Profile. Basic skeleton layout will be the priority at this stage |
-| 2a. | Smart Contract LogCompletion | Functionality to ensure that when a user declares they have completed a challenge it is recorded on-chain |
-| 2b. | Smart contract Counter | Functionality to ensure the total number of completed challenges is tracked |
-| 2c. | Smart Contract Streak | Functionality to record the number of consecutive days challenges are completed |
-| 3. | Wallet login integration| Wallet login integration, for grant development timeline will be metamask |
-| 4. | Challenge Calibration Tool| Accessable and efficient questionnaire to gauge user starting level|
-| 5. | Local storage Journal | Ability to record text and audio for reflective purposes |
-| 6. | Warm-up Timer | Crutial for the user to gain momentum in their session |
-| 7. | Expanded unit tests | Expanded unit tests for newly implemented logic |
-| 8. | UI/UX polish  | This is where the perception of the frontend will be prioritised with animations or media being included. |
-| 9. | Error Handling/Bug fixing | fix as many bugs as possible |
-| 10. | Comprehensive testing  | unit/manual for functions |
-| 11. | Deployment at purchased domain | Deployment at purchased domain |
+| 1a. | Frontend Structure | Landing Page, Mission Discovery Page, Group Page. Basic skeleton layout will be the priority at this stage |
+| 1b. | Wallet login integration | Wallet login integration, for grant development timeline will be Polkadot.js|
+| 2a. | Smart Contract: Core Token Minting & Decay Mechanism | Handles the creation and management of the ecosystem's core token supply. |
+| 2b. | Smart Contract: Mission Lifecycle Management | Manages the full lifecycle of a mission, from creation and start to completion and finalization. |
+| 2c. | Smart Contract: Verification and Nominee Module | Facilitates the on-chain verification of mission progress through a decentralized nominee consensus system |
+| 2d. | Smart Contract: Core Token based P2P Betting Engine | Enables users to engage in peer-to-peer betting on their mission outcomes using the core token |
+| 2e. | Smart Contract: NFT Streak Rewards Contract| Distributes unique, on-chain NFT rewards to users for completing consistent challenge streaks |
+| 3. | Bespoke Mission Templates| Designing the first missions designed for early testers|
+| 4. | Updating user guide | Instructional guide for new users so onboarding is smooth |
+| 5. | UI/UX polish  | This is where the perception of the frontend will be prioritised with animations or media being included. |
+| 6. | Error Handling/Bug fixing | fix as many bugs as possible |
+| 7. | Comprehensive testing  | unit/manual for functions |
+| 8. | Deployment at purchased domain | Deployment at purchased domain |
 
 ### 💰 Budget Breakdown
 
@@ -196,13 +196,13 @@ Please provide a breakdown of your budget by milestone:
 
 | Milestone 1| Deliverable| Title  | Hours | Rate/hr | Cost (USD) | 
 | --- | --- | --- | --- |--- |--- |
-| 1 |1| Frontend Structure|20|25|500| 
-| 1 | 2a | Smart Contract logChallenge| 4 |30 |120| 
-| 1 | 2b | Smart contract Counter| 4 |30 |120 | 
-| 1 |3| Wallet login integration| 8 |30|240| 
-| 1 | 0a | License |  || | 
-| 1 | 0b | Documentation|6|0 |0 | 
-| 1 | 0c | Testing and Testing Guide|5 |30 |150| 
+| 1 |1a| Frontend Structure & UI Framework Setup |30|25|750| 
+| 1 |1b| Wallet Login (DOT Asset Hub)|3|30|90| 
+| 1 |2a| Smart Contract: Core Token Minting & Decay Mechanism|28|30|840| 
+| 1 |2b| Smart Contract: Mission Lifecycle Management|28|30|240| 
+| 1 |0c| Testing & Test Guide |10|30|300| 
+| 1 |0a| License|0|0|0| 
+| 1 |0b| Documentation|7|20|140| 
 | **M1 Sub-Total** | **7 deliverables**|**Core Infrastructure**|**47**  |--- | 1,130|
 
 **Note:** M1 total is $1,130 and another $160 is for subscriptions. 
