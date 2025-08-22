@@ -203,32 +203,31 @@ Please provide a breakdown of your budget by milestone:
 | 1 |0c| Testing & Test Guide |10|30|300| 
 | 1 |0a| License|0|0|0| 
 | 1 |0b| Documentation|7|20|140| 
-| **M1 Sub-Total** | **7 deliverables**|**Core Infrastructure**|**47**  |--- | 1,130|
-
-**Note:** M1 total is $1,130 and another $160 is for subscriptions. 
-**M1 Total:** **$1290**
+| **M1 Total** | **7 deliverables**|**Core Infrastructure**|**106**  |--- |**2960**|
 
 | Milestone 2| Deliverable| Title  | Hours | Rate/hr | Cost (USD) | 
 | --- | --- | --- | --- |--- |--- |
-| 2 | 4 | Challenge Calibration Tool | 14 | 25 | 350 | 
-| 2 | 5 | Local storage Journal | 14 | 25 | 350 | 
-| 2 | 6 | Warm-up Timer | 10 | 25 | 250 | 
-| 2 | 2c | Smart Contract Streak | 6 | 30 | 180 | 
-| 2 | 7 | Expanded unit tests | 10 | 30 | 300 | 
-| 2 | 0b | Documentation|4|0 |0 | 
-| **M2 Total** |**6 deliverables**|**Functional Core**|**60**|--- | **1,430** |
+| 2 |2d| Core Token based P2P Betting Engine | 28 | 30 | 840 | 
+| 2 |2c| Verification and Nominee Module | 28 | 30 | 840 | 
+| 2 |2e| NFT Streak Rewards Contract | 16 | 30 | 480 | 
+| 2 |3| Bespoke Mission Templates | 12 | 25 | 300 | 
+| 2 |0c| Testing & Test Guide | 10 | 30 | 300 | 
+| 2 |0b| Documentation| 7 | 20 | 140 | 
+| **M2 Total** |**6 deliverables**|**Functional Core**|**101**|--- | **2900** |
 
 | Milestone 3| Deliverable| Title  | Hours | Rate/hr | Cost (USD) | 
 | --- | --- | --- | --- |--- |--- |
-| 3 | 8 | UI/UX polish | 24 | 25 | 600 |
-| 3 | 9 | Error Handling/Bug fixing | 8 | 30 | 240 |
-| 3 | 10 | Comprehensive testing | 10 | 30 | 300 |
-| 3 | 0d | Article | 5 | 0 | 0 |
-| 3 | 11 | Deployment on domain | 8 | 0 | 0 |
-| 3 | 0c | Update User Guide | 6 | 0 | 0 |
-| **M3 Total** |**6 deliverables**|**Polish & Testing**|**61** |--- | **1140** |
+| 3 | 5 | UI/UX polish | 20 | 25 | 500 |
+| 3 | 6 | Error Handling/Bug fixing | 10 | 30 | 300 |
+| 3 | 7 | Comprehensive testing | 8 | 30 | 240 |
+| 3 | 8 | Deployment & Setup on Domain | 8 | 25 | 200 |
+| 3 | 4 | Updating user guide | 6 | 25 | 150 |
+| 3 | 0c | Testing & Test Guide | 10 | 30 | 300 |
+| 3 | 0b | Documentation | 7 | 20 | 140 |
+| 3 | 0d | Article | 5 | 20 | 100 |
+| **M3 Total** |**8 deliverables**|**Polish & Testing**|**74** |--- | **1930** |
 
-| **Final Total** | **19 deliverables** | **167(+40hr filming/editing)** | **$3860** |
+| **Final Total** | **21 deliverables** | **281 hours** | **$7790** |
 
 ## 🔮 Future Plans
 
