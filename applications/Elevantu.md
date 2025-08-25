@@ -205,4 +205,109 @@ Please provide a breakdown of your budget by milestone:
 * Either integrate further into polkadot as a confidence layer where the streak NFTs signify special access/perks OR expand vertically with pitching/raising capital specific exercises/bootcamps. This will depend on the user feedback through the first 6 months of development.
 * I want this to affect the creators of the protocols and roll-ups on polkadot, if I can help improve the communication ability of web3 leaders then that has a disproportionate influence on the industry as a whole.
 
+## 🔮 Mechanism Design
+
+## Mechanism Design
+
+Our habit-building dApp leverages **Polkadot Asset Hub’s native smart contract capabilities** to create a dynamic, game-theoretic incentive system that maximizes user engagement while avoiding the pitfalls of high monetary stakes.
+
+### 1. Core Currency: Juice
+- **Definition**: Juice is a decaying, in-game currency minted directly by the platform.
+- **Acquisition**:
+  - Purchased upfront by users.
+  - Can be earned via habit completion.
+- **Decay Mechanism**: Juice automatically loses value over time, creating an incentive to participate in challenges rather than hoard currency.
+- **Utility**: Used to pay entry for missions.
+
+### 2. Missions
+- **Structure**: Time-bound challenges with defined goals, entry costs (in Juice), and transparent rules.
+- **Funding**: Prizes funded directly through Juice proceeds — no monetary loss risk for missed habits.
+- **Rewards**:
+  - **Partial/Full Reimbursement**: Return of entry Juice (mission entry fee) based on commitment.
+  - **Over-Reimbursement**: Exceptional commitment rewarded with more Juice than entry cost.
+  - **Non-Monetary Prizes**: Gear, subscriptions, event tickets, or skill-related resources, procured cost-effectively.
+- **Variety**:
+  - Low-cost, long-duration missions for steady habit building.
+  - High-cost, short-duration missions for intense engagement and fast feedback loops.
+
+### 3. Engagement Drivers
+- **Decay Pressure**: Prevents idle accounts; users are incentivized to act quickly.
+- **P2P Betting**: Optional wagers between friends using stablecoins for added stakes.
+- **Accountability Groups**: Peer reinforcement through shared missions and proof uploads.
+- **NFT Streak Badges**: On-chain collectibles marking milestones and consistent performance.
+
+### 4. Economic Sustainability
+- **Revenue Streams**:
+  - Juice sales.
+  - Premium mission access - driving more Juice demand.
+  - Partnerships for non-monetary prize sponsorship.
+- **Cost Control**:
+  - Prizes sourced in bulk or via affiliate partnerships.
+  - Juice minting is fully under platform control, enabling flexible reward calibration.
+- **No Direct Fiat Loss**: Users are never financially penalized beyond their Juice purchases, reducing churn risk.
+
+---
+
+22222222
+
+---
+
+## Mechanism Design
+
+Our system is designed to maximize user engagement, fairness, and retention while maintaining predictable unit economics.  
+It replaces traditional high-stake monetary penalties with a **decaying in-game currency** (“Juice”), creating an intrinsic urgency to participate without introducing excessive financial risk.
+
+### 1. Juice as a Decaying Asset
+- **Minting & Purchase:** Users acquire Juice through an upfront purchase or by earning it via habit completion.
+- **Decay Function:** Juice loses value over time if unused, encouraging continuous participation in missions rather than hoarding.
+- **Monetary Risk Control:** Because Juice is purchased in small increments and cannot be redeemed for cash, users face minimal direct monetary loss while still valuing it due to its functional utility in the ecosystem.
+
+---
+
+### 2. Mission Entry & Reward Structure
+Missions are time-bound challenges with an upfront Juice entry cost. Rewards scale with performance:
+
+| Completion Rate | Reward Payout (Juice) | Description |
+|-----------------|-----------------------|-------------|
+| 75%+            | 50% of entry cost     | Maintains partial value, softens loss aversion |
+| 85%+            | 100% reimbursement    | Risk-free participation for solid performance |
+| 100% (Easy)     | 110% reimbursement    | Small surplus for perfect performance |
+| 100% (Medium)   | 150% reimbursement    | Moderate surplus for perfect performance |
+| 100% (Hard)     | 300% reimbursement    | Large surplus, creating aspirational “jackpot” missions |
+
+This tiered system:
+- Rewards consistent effort (partial reimbursement tiers).
+- Encourages perfectionism in higher-stakes missions.
+- Keeps non-perfect completion attractive enough to maintain engagement.
+
+---
+
+### 3. P2P Betting on Performance
+Beyond mission rewards, users can **wager Juice directly against peers** on the likelihood of their completion percentages.  
+This mechanic is highly engaging because:
+- It adds **skin-in-the-game** without requiring fiat money.
+- Betting outcomes are **settled automatically** via smart contracts, preventing disputes.
+- Users can offset potential Juice decay by winning bets.
+- It creates **social pressure and visibility**, amplifying accountability within groups.
+
+Example:  
+Two friends both enter a 7-day mission. Each bets 20 Juice that they’ll outperform the other in % completion. The winner not only gains bragging rights but also their opponent’s Juice — which can be reinvested into new missions.
+
+---
+
+### 4. Why This Design Works
+- **Urgency without Punishment:** Decay encourages action without the resentment caused by losing large cash stakes.
+- **Short Feedback Loops:** High-cost, short-duration missions provide fast results, keeping users hooked.
+- **Predictable Economics:** Juice sales fund all prizes, ensuring sustainability.
+- **Intrinsic + Extrinsic Motivation:** Users are motivated both by personal progress and the competitive thrill of outperforming others.
+- **Scalable Reward Sourcing:** Non-monetary prizes (gear, books, subscriptions) can be acquired cost-effectively at scale, stretching each Juice payout.
+
+---
+
+### 5. Expected Behavioral Dynamics
+- **Habit reinforcement:** Low-barrier missions encourage onboarding, while “jackpot” missions incentivize mastery.
+- **Increased retention:** P2P betting adds replay value and personal stakes.
+- **Positive-sum perception:** Even in failure, partial reimbursements reduce churn.
+- **Community formation:** Groups evolve into micro-economies where Juice circulates through missions and bets.
+
 
