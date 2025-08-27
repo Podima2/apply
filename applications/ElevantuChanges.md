@@ -109,24 +109,30 @@ This is only a quick chatgpt mockup based on the pages required on the dapp.
 ### 🧩 Ecosystem Fit
 
 **Where and how does your project fit into the ecosystem?**
-- To be honest, this will belong in a novel intersection between gaming and self-improvement. Social prowess is something you cannot purchase, but it can be developed like a muscle. So this is like a bespoke social ability training plan, but the difference between this and some generated pdf is the central aspect of gamifying the process. With badges of completion and streak accomplishments which signify and imply a particular level of competency. 
+- Long term I see the ecosystem using this predominantly for skill development and community social missions but also as consideration for hiring purposes and creating events with curated event participants. This is a novel intersection between gaming and self-improvement, which so far I've only seen vaguely exploited in web2. The usage of tokens and verifiable actions redefines what rewards and incentive strength the application can have.
+  
 
 **Who is your target audience?**
-It will change over time as the company matures, for now my niche will be - Web3 entrepreneurs and c-suite raising their seed, angel investment or series A, and feel like their social ability could be enhanced. Over time this will grow to accomodate other sectors, starting with the wider tech industry and then adjacent industries.
-* Entrepreneurs, professionals, and salespeople seeking to improve their social confidence
-* Rejection Therapy and self-improvement enthusiasts
-* High-net-worth individuals willing to invest in measurable personal growth
+The self-teaching unemployed who are improving their craft everyday without any incentive structures around them would be my ideal customer base because with the app they can simultaneously improve their skill and become more attractive to the job market at the same time. 
+* Unemployed who need to improve skills and demonstrate commitment
+* Individuals willing to invest in measurable personal growth
 * Polkadot community members interested in verifiable off-chain achievements
 
-**What needs does your project meet? Why are there not competitors**
+**What needs does your project meet? Why are there no competitors**
 We meet three unmet needs:
-1) To onboard the world we need bold and socially adept web3 leaders - I havent heard of any bespoke training programs designed specifically to improve confidence specifically for web3 entrepreneurs.
+1) To onboard the world we sticky and useful applications mass audiences can utilise. need bold and socially adept web3 leaders - I havent heard of any bespoke training programs designed specifically to improve confidence specifically for web3 entrepreneurs.
 
 2) Trustworthy proof of personal growth — Existing bootcamps and confidence programs (web2) lack transparent, verifiable records of participation and effort.
 
-3) Reputation and accountability in self-improvement — Publicly visible, on-chain records incentivize long-term engagement and build a reputation layer for users’ consistency and discipline.
+3) Reputation and Accountability in self-improvement — Publicly visible, on-chain records incentivize long-term engagement and build a reputation layer for users’ consistency and discipline.
 
-There are currently no direct competitors because the combination of elements we're bringing together—confidence-building challenges for entrepreneurs, powered by Web3—doesn’t exist in this specific form yet. While there are platforms for self-improvement, personal development, or even rejection therapy in a more generalized form, none are tailored to the entrepreneurial community or have successfully leveraged blockchain to create an incentivized ecosystem with the focus on real-world, business-specific challenges that Elevantu offers.
+1) Reputation and Accountability in self-improvement: It provides a tangible, verifiable system of accountability. By using on-chain records and a "nominee" verification process, the application ensures that a user's progress and commitment are transparent and immutable, which is more powerful than simple self-reporting.
+
+2) Motivation & Incentives: The application is geared towards maintaining long-term motivation. It uses a gamified system of rewards, including a native token, on-chain NFTs and prizes, to provide continuous incentive for consistency and habit-building.
+
+3) Meaningful Rewards: Rather than just earning digital points, users receive a meaningful, verifiable representation of their effort. Elevantu transforms abstract concepts like consistency into tangible assets. The most challenging missions even offer physical prizes, adding another layer of reward. 
+
+There are currently no direct competitors because the combination of elements we're bringing together - skill building challenges powered by Web3 — doesn’t exist in this specific form yet. While there are platforms for self-improvement and personal development, none have successfully leveraged blockchain to create an incentivized ecosystem with the focus on real-world challenges that Elevantu offers.
 
 ## 👥 Team
 
@@ -168,7 +174,7 @@ Over the past year, I’ve documented and refined these challenges through consi
 
 - **Estimated Duration:** Three months
 - **Full-Time Equivalent (FTE):**  One
-- **Total Costs:** $3860
+- **Total Costs:** $7790
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
