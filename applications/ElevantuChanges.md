@@ -200,7 +200,7 @@ Please provide a breakdown of your budget by milestone:
 | 1 |1a| Frontend Structure & UI Framework Setup |30|25|750| 
 | 1 |1b| Wallet Login (DOT Asset Hub)|3|30|90| 
 | 1 |2a| Smart Contract: Core Token Minting & Decay Mechanism|28|30|840| 
-| 1 |2b| Smart Contract: Mission Lifecycle Management|28|30|240| 
+| 1 |2b| Smart Contract: Mission Lifecycle Management|28|30|840| 
 | 1 |0c| Testing & Test Guide |10|30|300| 
 | 1 |0a| License|0|0|0| 
 | 1 |0b| Documentation|7|20|140| 
