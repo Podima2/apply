@@ -109,14 +109,15 @@ This is only a quick chatgpt mockup based on the pages required on the dapp.
 ### 🧩 Ecosystem Fit
 
 **Where and how does your project fit into the ecosystem?**
-- Long term I see the ecosystem using this predominantly for skill development and community social missions but also as consideration for hiring purposes and creating events with curated event participants. This is a novel intersection between gaming and self-improvement, which so far I've only seen vaguely exploited in web2. The usage of tokens and verifiable actions redefines what rewards and incentive strength the application can have.
+
+Long term I see the ecosystem using this predominantly for skill development and community social missions but also as consideration for hiring purposes and creating events with curated event participants. This is a novel intersection between gaming and self-improvement, which so far I've only seen vaguely exploited in web2. The usage of tokens and verifiable actions redefines what rewards and incentive strength the application can have.
   
 
 **Who is your target audience?**
 The self-teaching unemployed who are improving their craft everyday without any incentive structures around them would be my ideal customer base because with the app they can simultaneously improve their skill and become more attractive to the job market at the same time. 
 * Unemployed who need to improve skills and demonstrate commitment
 * Individuals willing to invest in measurable personal growth
-* Polkadot community members interested in verifiable off-chain achievements
+* Polkadot community members interested in verifiable achievements
 
 **What needs does your project meet? Why are there no competitors**
 We meet three unmet needs:
@@ -229,66 +230,9 @@ Please provide a breakdown of your budget by milestone:
 
 | **Final Total** | **21 deliverables** | **281 hours** | **$7790** |
 
-## 🔮 Future Plans
-
-* Personally continue performing rejection therapy challenges and grow my comfort zone extensively
-* Organically growing a social media presence will take minimum 6 months of regular posting I suspect, will use repurpose.io to automate posting across all socials with a post schedule. 
-* Onboard people I meet at hackathons, conferences and hostels
-* Commence 1-1 consultations and build mentoring expertise 
-* Hold Bootcamps where I physically accompany students with their challenges
-* Either integrate further into polkadot as a confidence layer where the streak NFTs signify special access/perks OR expand vertically with pitching/raising capital specific exercises/bootcamps. This will depend on the user feedback through the first 6 months of development.
-* I want this to affect the creators of the protocols and roll-ups on polkadot, if I can help improve the communication ability of web3 leaders then that has a disproportionate influence on the industry as a whole.
-
 ## 🔮 Mechanism Design
 
-## Mechanism Design
-
-Our habit-building dApp leverages **Polkadot Asset Hub’s native smart contract capabilities** to create a dynamic, game-theoretic incentive system that maximizes user engagement while avoiding the pitfalls of high monetary stakes.
-
-### 1. Core Currency: Juice
-- **Definition**: Juice is a decaying, in-game currency minted directly by the platform.
-- **Acquisition**:
-  - Purchased upfront by users.
-  - Can be earned via habit completion.
-- **Decay Mechanism**: Juice automatically loses value over time, creating an incentive to participate in challenges rather than hoard currency.
-- **Utility**: Used to pay entry for missions.
-
-### 2. Missions
-- **Structure**: Time-bound challenges with defined goals, entry costs (in Juice), and transparent rules.
-- **Funding**: Prizes funded directly through Juice proceeds — no monetary loss risk for missed habits.
-- **Rewards**:
-  - **Partial/Full Reimbursement**: Return of entry Juice (mission entry fee) based on commitment.
-  - **Over-Reimbursement**: Exceptional commitment rewarded with more Juice than entry cost.
-  - **Non-Monetary Prizes**: Gear, subscriptions, event tickets, or skill-related resources, procured cost-effectively.
-- **Variety**:
-  - Low-cost, long-duration missions for steady habit building.
-  - High-cost, short-duration missions for intense engagement and fast feedback loops.
-
-### 3. Engagement Drivers
-- **Decay Pressure**: Prevents idle accounts; users are incentivized to act quickly.
-- **P2P Betting**: Optional wagers between friends using stablecoins for added stakes.
-- **Accountability Groups**: Peer reinforcement through shared missions and proof uploads.
-- **NFT Streak Badges**: On-chain collectibles marking milestones and consistent performance.
-
-### 4. Economic Sustainability
-- **Revenue Streams**:
-  - Juice sales.
-  - Premium mission access - driving more Juice demand.
-  - Partnerships for non-monetary prize sponsorship.
-- **Cost Control**:
-  - Prizes sourced in bulk or via affiliate partnerships.
-  - Juice minting is fully under platform control, enabling flexible reward calibration.
-- **No Direct Fiat Loss**: Users are never financially penalized beyond their Juice purchases, reducing churn risk.
-
----
-
-22222222
-
----
-
-## Mechanism Design
-
-Our system is designed to maximize user engagement, fairness, and retention while maintaining predictable unit economics.  
+This system is designed to maximize user engagement, fairness, and retention while maintaining predictable unit economics.  
 It replaces traditional high-stake monetary penalties with a **decaying in-game currency** (“Juice”), creating an intrinsic urgency to participate without introducing excessive financial risk.
 
 ### 1. Juice as a Decaying Asset
@@ -298,7 +242,7 @@ It replaces traditional high-stake monetary penalties with a **decaying in-game 
 
 ---
 
-### 2. Mission Entry & Reward Structure
+### 2. Mission Entry & Proposed Reward Structure
 Missions are time-bound challenges with an upfront Juice entry cost. Rewards scale with performance:
 
 | Completion Rate | Reward Payout (Juice) | Description |
@@ -314,6 +258,7 @@ This tiered system:
 - Encourages perfectionism in higher-stakes missions.
 - Keeps non-perfect completion attractive enough to maintain engagement.
 
+*Note:* The reward payout schedule is subject to change depending on effectiveness.
 ---
 
 ### 3. P2P Betting on Performance
@@ -343,5 +288,15 @@ Two friends both enter a 7-day mission. Each bets 20 Juice that they’ll outper
 - **Increased retention:** P2P betting adds replay value and personal stakes.
 - **Positive-sum perception:** Even in failure, partial reimbursements reduce churn.
 - **Community formation:** Groups evolve into micro-economies where Juice circulates through missions and bets.
+
+## 🔮 Future Plans
+
+* Personally continue performing rejection therapy challenges and grow my comfort zone extensively
+* Organically growing a social media presence will take minimum 6 months of regular posting I suspect, will use repurpose.io to automate posting across all socials with a post schedule. 
+* Onboard people I meet at hackathons, conferences and hostels
+* Commence 1-1 consultations and build mentoring expertise 
+* Hold Bootcamps where I physically accompany students with their challenges
+* Either integrate further into polkadot as a confidence layer where the streak NFTs signify special access/perks OR expand vertically with pitching/raising capital specific exercises/bootcamps. This will depend on the user feedback through the first 6 months of development.
+* I want this to affect the creators of the protocols and roll-ups on polkadot, if I can help improve the communication ability of web3 leaders then that has a disproportionate influence on the industry as a whole.
 
 
