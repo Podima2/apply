@@ -7,7 +7,7 @@
 **Tagline:** World First Web3-powered Habit Gym
 
 **Brief Description:** 
-Elevantu is a behavioral coaching platform designed to help individuals achieve goals through consistent real-world challenges. Users participate in **missions**, logging their daily progress which is verified by a group of user-chosen **nominees**. Upon nominee consensus, users are rewarded with a variable amount of '**Core**'—the native digital currency that powers the ecosystem. Users can also stake 'Core' on their mission completion, adding a tangible layer of personal accountability. This gamified system incentivizes long-term engagement; as users consistently complete habits and earn Core, they randomly unlock new functionality and exclusive rewards, providing a tiered reward experience that feels both exciting and valuable. Elevantu fosters genuine accountability and tangible self-improvement.
+Elevantu is a habit tracking platform designed to help individuals achieve goals through consistent real-world challenges. Users participate in **missions**, logging their daily progress which is verified by a group of user-chosen **nominees**. Upon nominee consensus, users are rewarded with a variable amount of '**Core**'—the native digital currency that powers the ecosystem. Users can also stake 'Core' on their mission completion, adding a tangible layer of personal accountability. This gamified system incentivizes long-term engagement; as users consistently complete habits and earn Core, they randomly unlock new functionality and exclusive rewards, providing a tiered reward experience that feels both exciting and valuable. Elevantu fosters genuine accountability and tangible self-improvement.
 
 **Integration with Polkadot:**
 Elevantu is not just built on Polkadot — it is architecturally and philosophically aligned with Polkadot. Polkadot enables us to:
@@ -45,7 +45,7 @@ This project is a direct result of solving a personal problem and so I’ve desi
 - **Frontend Pages:** Landing Page, Mission Discovery Page, Group Page
 - **Smart Contracts:** Mission Management, Habit & Verification, Core Token, Juice Betting, NFTs
 - **Nominees & Verification:** 
-- **Juice and Variable Ratio Reward Schedule:** Saves reflections locally
+- **Juice and Variable Ratio Reward Schedule:** 
   
 1. **Frontend Pages:**
 * **Landing Page** (All-in-One Hub): This will be the main hub a user lands on after logging in. It will combine the functions of the profile page, mission dashboard, open bets, and rewards page. This single page will show a user's progress, current streak, and all their open missions and bets.
@@ -120,12 +120,6 @@ The self-teaching unemployed who are improving their craft everyday without any 
 
 **What needs does your project meet? Why are there no competitors**
 We meet three unmet needs:
-1) To onboard the world we sticky and useful applications mass audiences can utilise. need bold and socially adept web3 leaders - I havent heard of any bespoke training programs designed specifically to improve confidence specifically for web3 entrepreneurs.
-
-2) Trustworthy proof of personal growth — Existing bootcamps and confidence programs (web2) lack transparent, verifiable records of participation and effort.
-
-3) Reputation and Accountability in self-improvement — Publicly visible, on-chain records incentivize long-term engagement and build a reputation layer for users’ consistency and discipline.
-
 1) Reputation and Accountability in self-improvement: It provides a tangible, verifiable system of accountability. By using on-chain records and a "nominee" verification process, the application ensures that a user's progress and commitment are transparent and immutable, which is more powerful than simple self-reporting.
 
 2) Motivation & Incentives: The application is geared towards maintaining long-term motivation. It uses a gamified system of rewards, including a native token, on-chain NFTs and prizes, to provide continuous incentive for consistency and habit-building.
@@ -164,9 +158,9 @@ Agustin Schiariti
 
 The foundation of this project emerged from extensive real-world testing of rejection therapy challenges as a means to rapidly build entrepreneurial confidence. Originally derived from vocal warm-up exercises before hackathon pitches and startup presentations, these challenges evolved into a structured, repeatable procedure for reducing social anxiety, improving communication skills and enlarge ones comfort zone, Quickly. 
 
-To be clear this isnt a infantile social experiment project, although unconventional, I have personally found this to be the most effective method to quickly improve public speaking, negotiation, handling rejection, and networking skills. Critical skills of an entrepreneur.
+Realising the system of repeatable actions can be applied to any skill gave birth to the idea of supporting people to achieve their skill development goals with the same techniques the gaming industry uses to improve consistency.
 
-Over the past year, I’ve documented and refined these challenges through consistent content creation—recording video demonstrations, sharing guides to my close friends, and sharing insights with entrepreneurial communities. This groundwork validates both the feasibility and demand for a scalable, systematic approach to confidence-building, which Elevantu now aims to bring on-chain with a dapp that can ease frictions I have with my current workflow. 
+Over the past year, I’ve documented and refined these challenges through consistent content creation—recording video demonstrations, sharing guides to my close friends, and sharing insights with entrepreneurial communities. Personally I have been documenting in public the completion of 4 habits everyday for the past 3 weeks. Observing friction points and theorising where and how users can be supported through their own journeys. This has heavily influenced the mechanism design.
 
 ## 📅 Development Roadmap
 
